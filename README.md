@@ -5,6 +5,8 @@ This repository is an improvement for the correct functioning of the new version
 
 [Original repository](https://www.npmjs.com/package/get-keycloak-public-key)
 
+It works correctly in version 21.1.0 of keycloak
+
 
 ## Introduction
 [KeyCloak][1] has a bunch of libraries, but for [NodeJs][3] the only solution is a [Connect based adapter][4]. In case you want to use [koa][5], or something else, you are toast with your token.
