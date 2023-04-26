@@ -20,7 +20,7 @@ If you need improved behavior like caching of Public Keys, you can easily implem
 
 ## Installation
 ```bash
-$ npm install --save get-keycloak-public-key
+$ npm install --save keycloak-public-key
 ```
 
 ## Usage
