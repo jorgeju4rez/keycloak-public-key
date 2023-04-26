@@ -1,0 +1,33 @@
+{
+  "name": "get-keycloak-public-key",
+  "version": "1.0.0",
+  "description": "Fetches the openid-connect PEM public key for a specific KID for validating JWT provided by Keycloak.",
+  "keywords": [
+    "keycloak",
+    "JWT",
+    "PEM"
+  ],
+  "main": "index.js",
+  "files": [
+    "test.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jorgeju4rez/get-keycloak-public-key"
+  },
+  "scripts": {
+    "test": "tap test.js",
+    "lint": "eslint *.js",
+    "coverage": "tap test.js --coverage"
+  },
+  "author": "Jorge Juárez",
+  "license": "MIT",
+  "homepage": "https://github.com/jorgeju4rez/get-keycloak-public-key",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "nock": "^9.3.2",
+    "tap": "^12.0.1"
+  }
+}
