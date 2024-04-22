@@ -27,7 +27,7 @@ $ npm install --save keycloak-public-key
 
 ## Usage
 ```javascript
-const KeyCloakCerts = require('get-keycloak-public-key');
+const KeyCloakCerts = require('keycloak-public-key');
 
 const keyCloakCerts = new KeyCloakCerts('https://my-keycloak.com', 'my-realm');
 
@@ -41,7 +41,7 @@ const publicKey = keyCloakCerts.fetch('my-kid')
 Verifying the token using [koa][5] and [jsonwebtoken][6]:
 ```javascript
 const Koa = require('koa');
-const KeyCloakCerts = require('get-keycloak-public-key');
+const KeyCloakCerts = require('keycloak-public-key');
 const jwt = require('jsonwebtoken');
 
 const keyCloakCerts = new KeyCloakCerts('https://my-keycloak.com', 'my-realm');
